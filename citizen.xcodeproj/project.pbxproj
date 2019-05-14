@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50EF259D43B8821A42B439C7 /* Pods_citizen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9439F4E586134A25913769E /* Pods_citizen.framework */; };
+		AC5E8F36227F3EB700370669 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E8F35227F3EB700370669 /* RegisterViewController.swift */; };
+		AC5E8F38227F3EC300370669 /* LogInViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E8F37227F3EC300370669 /* LogInViewcontroller.swift */; };
+		AC5E8F3A227F932400370669 /* AddAppeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E8F39227F932400370669 /* AddAppeal.swift */; };
+		AC5E8F3C228012AF00370669 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E8F3B228012AF00370669 /* AdminViewController.swift */; };
+		AC5E8F3E2280148D00370669 /* Appeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E8F3D2280148D00370669 /* Appeal.swift */; };
+		AC5E8F402280185D00370669 /* AdminCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E8F3F2280185D00370669 /* AdminCell.swift */; };
+		AC5E8F4222801C0F00370669 /* extensionForVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E8F4122801C0F00370669 /* extensionForVC.swift */; };
+		AC5E8F4422801C6300370669 /* AppealViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5E8F4322801C6300370669 /* AppealViewController.storyboard */; };
+		AC5E8F4622801CFB00370669 /* AppealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E8F4522801CFB00370669 /* AppealViewController.swift */; };
 		ACCA6124227F04CA008FD416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA6123227F04CA008FD416 /* AppDelegate.swift */; };
 		ACCA6126227F04CA008FD416 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA6125227F04CA008FD416 /* ViewController.swift */; };
 		ACCA6129227F04CA008FD416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCA6127227F04CA008FD416 /* Main.storyboard */; };
 		ACCA612B227F04CC008FD416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCA612A227F04CC008FD416 /* Assets.xcassets */; };
 		ACCA612E227F04CC008FD416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCA612C227F04CC008FD416 /* LaunchScreen.storyboard */; };
+		ACCA6136227F33D5008FD416 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACCA6135227F33D4008FD416 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2F54C689049CDA9317CBC82 /* Pods-citizen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-citizen.release.xcconfig"; path = "Target Support Files/Pods-citizen/Pods-citizen.release.xcconfig"; sourceTree = "<group>"; };
+		AC5E8F35227F3EB700370669 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AC5E8F37227F3EC300370669 /* LogInViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewcontroller.swift; sourceTree = "<group>"; };
+		AC5E8F39227F932400370669 /* AddAppeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAppeal.swift; sourceTree = "<group>"; };
+		AC5E8F3B228012AF00370669 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		AC5E8F3D2280148D00370669 /* Appeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appeal.swift; sourceTree = "<group>"; };
+		AC5E8F3F2280185D00370669 /* AdminCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminCell.swift; sourceTree = "<group>"; };
+		AC5E8F4122801C0F00370669 /* extensionForVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionForVC.swift; sourceTree = "<group>"; };
+		AC5E8F4322801C6300370669 /* AppealViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppealViewController.storyboard; sourceTree = "<group>"; };
+		AC5E8F4522801CFB00370669 /* AppealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppealViewController.swift; sourceTree = "<group>"; };
 		ACCA6120227F04CA008FD416 /* citizen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = citizen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCA6123227F04CA008FD416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACCA6125227F04CA008FD416 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,9 @@
 		ACCA612A227F04CC008FD416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACCA612D227F04CC008FD416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACCA612F227F04CC008FD416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCA6135227F33D4008FD416 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA0A4A6678B1A38C9472A59C /* Pods-citizen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-citizen.debug.xcconfig"; path = "Target Support Files/Pods-citizen/Pods-citizen.debug.xcconfig"; sourceTree = "<group>"; };
+		E9439F4E586134A25913769E /* Pods_citizen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_citizen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50EF259D43B8821A42B439C7 /* Pods_citizen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A32038972EE8B6629FB88554 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9439F4E586134A25913769E /* Pods_citizen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ACCA6117227F04CA008FD416 = {
 			isa = PBXGroup;
 			children = (
 				ACCA6122227F04CA008FD416 /* citizen */,
 				ACCA6121227F04CA008FD416 /* Products */,
+				B55A5D91A1F23CEF8FF52CE4 /* Pods */,
+				A32038972EE8B6629FB88554 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,11 +92,30 @@
 				ACCA6123227F04CA008FD416 /* AppDelegate.swift */,
 				ACCA6125227F04CA008FD416 /* ViewController.swift */,
 				ACCA6127227F04CA008FD416 /* Main.storyboard */,
+				AC5E8F3F2280185D00370669 /* AdminCell.swift */,
+				AC5E8F3D2280148D00370669 /* Appeal.swift */,
+				AC5E8F39227F932400370669 /* AddAppeal.swift */,
 				ACCA612A227F04CC008FD416 /* Assets.xcassets */,
 				ACCA612C227F04CC008FD416 /* LaunchScreen.storyboard */,
 				ACCA612F227F04CC008FD416 /* Info.plist */,
+				ACCA6135227F33D4008FD416 /* GoogleService-Info.plist */,
+				AC5E8F35227F3EB700370669 /* RegisterViewController.swift */,
+				AC5E8F37227F3EC300370669 /* LogInViewcontroller.swift */,
+				AC5E8F3B228012AF00370669 /* AdminViewController.swift */,
+				AC5E8F4122801C0F00370669 /* extensionForVC.swift */,
+				AC5E8F4322801C6300370669 /* AppealViewController.storyboard */,
+				AC5E8F4522801CFB00370669 /* AppealViewController.swift */,
 			);
 			path = citizen;
+			sourceTree = "<group>";
+		};
+		B55A5D91A1F23CEF8FF52CE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA0A4A6678B1A38C9472A59C /* Pods-citizen.debug.xcconfig */,
+				A2F54C689049CDA9317CBC82 /* Pods-citizen.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACCA6132227F04CC008FD416 /* Build configuration list for PBXNativeTarget "citizen" */;
 			buildPhases = (
+				4110A8A9A8D3DF0752AF46C0 /* [CP] Check Pods Manifest.lock */,
 				ACCA611C227F04CA008FD416 /* Sources */,
 				ACCA611D227F04CA008FD416 /* Frameworks */,
 				ACCA611E227F04CA008FD416 /* Resources */,
+				7531EFEE225CBC354AC67A10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +180,86 @@
 			files = (
 				ACCA612E227F04CC008FD416 /* LaunchScreen.storyboard in Resources */,
 				ACCA612B227F04CC008FD416 /* Assets.xcassets in Resources */,
+				AC5E8F4422801C6300370669 /* AppealViewController.storyboard in Resources */,
 				ACCA6129227F04CA008FD416 /* Main.storyboard in Resources */,
+				ACCA6136227F33D5008FD416 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4110A8A9A8D3DF0752AF46C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-citizen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7531EFEE225CBC354AC67A10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-citizen/Pods-citizen-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-citizen/Pods-citizen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ACCA611C227F04CA008FD416 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5E8F4222801C0F00370669 /* extensionForVC.swift in Sources */,
+				AC5E8F4622801CFB00370669 /* AppealViewController.swift in Sources */,
+				AC5E8F3C228012AF00370669 /* AdminViewController.swift in Sources */,
+				AC5E8F38227F3EC300370669 /* LogInViewcontroller.swift in Sources */,
+				AC5E8F3E2280148D00370669 /* Appeal.swift in Sources */,
+				AC5E8F402280185D00370669 /* AdminCell.swift in Sources */,
+				AC5E8F36227F3EB700370669 /* RegisterViewController.swift in Sources */,
 				ACCA6126227F04CA008FD416 /* ViewController.swift in Sources */,
 				ACCA6124227F04CA008FD416 /* AppDelegate.swift in Sources */,
+				AC5E8F3A227F932400370669 /* AddAppeal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +403,7 @@
 		};
 		ACCA6133227F04CC008FD416 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA0A4A6678B1A38C9472A59C /* Pods-citizen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +422,7 @@
 		};
 		ACCA6134227F04CC008FD416 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F54C689049CDA9317CBC82 /* Pods-citizen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
