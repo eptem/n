@@ -17,6 +17,8 @@
 		AC5E8F4222801C0F00370669 /* extensionForVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E8F4122801C0F00370669 /* extensionForVC.swift */; };
 		AC5E8F4422801C6300370669 /* AppealViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5E8F4322801C6300370669 /* AppealViewController.storyboard */; };
 		AC5E8F4622801CFB00370669 /* AppealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E8F4522801CFB00370669 /* AppealViewController.swift */; };
+		ACC14BAB228B299200587A88 /* ShowAppealVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC14BAA228B299200587A88 /* ShowAppealVC.swift */; };
+		ACC14BAD228B300F00587A88 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC14BAC228B300F00587A88 /* myCell.swift */; };
 		ACCA6124227F04CA008FD416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA6123227F04CA008FD416 /* AppDelegate.swift */; };
 		ACCA6126227F04CA008FD416 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA6125227F04CA008FD416 /* ViewController.swift */; };
 		ACCA6129227F04CA008FD416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCA6127227F04CA008FD416 /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 		AC5E8F4122801C0F00370669 /* extensionForVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionForVC.swift; sourceTree = "<group>"; };
 		AC5E8F4322801C6300370669 /* AppealViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppealViewController.storyboard; sourceTree = "<group>"; };
 		AC5E8F4522801CFB00370669 /* AppealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppealViewController.swift; sourceTree = "<group>"; };
+		ACC14BAA228B299200587A88 /* ShowAppealVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAppealVC.swift; sourceTree = "<group>"; };
+		ACC14BAC228B300F00587A88 /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
 		ACCA6120227F04CA008FD416 /* citizen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = citizen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCA6123227F04CA008FD416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACCA6125227F04CA008FD416 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,8 +96,10 @@
 				ACCA6123227F04CA008FD416 /* AppDelegate.swift */,
 				ACCA6125227F04CA008FD416 /* ViewController.swift */,
 				ACCA6127227F04CA008FD416 /* Main.storyboard */,
+				ACC14BAC228B300F00587A88 /* myCell.swift */,
 				AC5E8F3F2280185D00370669 /* AdminCell.swift */,
 				AC5E8F3D2280148D00370669 /* Appeal.swift */,
+				ACC14BAA228B299200587A88 /* ShowAppealVC.swift */,
 				AC5E8F39227F932400370669 /* AddAppeal.swift */,
 				ACCA612A227F04CC008FD416 /* Assets.xcassets */,
 				ACCA612C227F04CC008FD416 /* LaunchScreen.storyboard */,
@@ -251,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5E8F4222801C0F00370669 /* extensionForVC.swift in Sources */,
+				ACC14BAD228B300F00587A88 /* myCell.swift in Sources */,
 				AC5E8F4622801CFB00370669 /* AppealViewController.swift in Sources */,
 				AC5E8F3C228012AF00370669 /* AdminViewController.swift in Sources */,
 				AC5E8F38227F3EC300370669 /* LogInViewcontroller.swift in Sources */,
@@ -258,6 +265,7 @@
 				AC5E8F402280185D00370669 /* AdminCell.swift in Sources */,
 				AC5E8F36227F3EB700370669 /* RegisterViewController.swift in Sources */,
 				ACCA6126227F04CA008FD416 /* ViewController.swift in Sources */,
+				ACC14BAB228B299200587A88 /* ShowAppealVC.swift in Sources */,
 				ACCA6124227F04CA008FD416 /* AppDelegate.swift in Sources */,
 				AC5E8F3A227F932400370669 /* AddAppeal.swift in Sources */,
 			);

@@ -9,8 +9,10 @@
 import Foundation
 import UIKit
 import Firebase
-
+import RealmSwift
 class AddAppealViewController : UIViewController {
+    
+    let realm = try! Realm()
     
     var currentType = "type 1"
     
@@ -27,6 +29,14 @@ class AddAppealViewController : UIViewController {
         textView.endEditing(true)
         let appealDB = Database.database().reference().child("appeals")
         if let text = textView.text {
+            let appeal = Appeal()
+            appeal.message = text
+            appeal.sender = (Auth.auth().currentUser?.email)!
+            appeal.type = currentType
+            try! realm.write {
+                realm.add(appeal)
+            }
+            print(realm.objects(Appeal.self))
             let appealDictionary = ["Sender" : Auth.auth().currentUser?.email,"text" : text, "type" : currentType]
             appealDB.childByAutoId().setValue(appealDictionary) {
                 (error, reference) in

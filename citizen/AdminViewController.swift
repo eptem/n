@@ -32,9 +32,13 @@ class AdminViewController : UIViewController {
             let sender = snapshotValue["Sender"]
             let text = snapshotValue["text"]
             let type = snapshotValue["type"]
-            let appeal = Appeal(message: text!, sender: sender!, type: type!)
+            //let appeal = Appeal(message: text!, sender: sender!, type: type!)
+            let appeal = Appeal()
+            appeal.message = text!
+            appeal.sender = sender!
+            appeal.type = type!
             self.appeals.append(appeal)
-            print(text,type,sender)
+            //print(text,type,sender)
             self.tableView.reloadData()
         }
     }
