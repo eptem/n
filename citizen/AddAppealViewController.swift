@@ -14,13 +14,10 @@ class AddAppealViewController : UIViewController {
     
     let realm = try! Realm()
     
-    var currentType = "type 1"
-    
     let typeOfAppeal = ["type 1", "type 2", "type 3", "type 4", "type 5", "type 6"]
+    var appealType : String? = nil
     
     @IBOutlet weak var textView: UITextView!
-    
-    @IBOutlet weak var pickerView: UIPickerView!
     
     @IBOutlet weak var addButton: UIButton!
     
@@ -32,12 +29,12 @@ class AddAppealViewController : UIViewController {
             let appeal = Appeal()
             appeal.message = text
             appeal.sender = (Auth.auth().currentUser?.email)!
-            appeal.type = currentType
+            appeal.type = appealType ?? "random"
             try! realm.write {
                 realm.add(appeal)
             }
             print(realm.objects(Appeal.self))
-            let appealDictionary = ["Sender" : Auth.auth().currentUser?.email,"text" : text, "type" : currentType]
+            let appealDictionary = ["Sender" : Auth.auth().currentUser?.email,"text" : text, "type" : appealType]
             appealDB.childByAutoId().setValue(appealDictionary) {
                 (error, reference) in
                 
@@ -50,28 +47,13 @@ class AddAppealViewController : UIViewController {
                 }
             }
         }
+        self.navigationController?.popViewController(animated: true)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        pickerView.delegate = self
-        pickerView.dataSource = self
+        
+        
     }
 }
-extension AddAppealViewController : UIPickerViewDelegate,UIPickerViewDataSource {
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return typeOfAppeal.count
-    }
-    
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return typeOfAppeal[row]
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        currentType = typeOfAppeal[row]
-    }
-}
+
