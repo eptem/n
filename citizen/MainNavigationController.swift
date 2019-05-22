@@ -13,6 +13,6 @@ class MainNavigationController : UINavigationController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //view.backgroundColor = .yellow
+        present(LogInViewController(), animated: true)
     }
 }

@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import Firebase
 
-class RegisterViewController : UIViewController {
+class RegisterViewController : UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var loginTextfield: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
@@ -32,8 +32,34 @@ class RegisterViewController : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.loginTextfield.delegate = self
+        self.passwordTextField.delegate = self
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        loginTextfield.resignFirstResponder()
+        passwordTextField.resignFirstResponder()
+        return true
+    }
+    @objc func keyboardWillShow(notification: NSNotification) {
+        if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
+            if self.view.frame.origin.y == 0 {
+                self.view.frame.origin.y -= 35.0
+            }
+        }
+    }
+    
+    @objc func keyboardWillHide(notification: NSNotification) {
+        if self.view.frame.origin.y != 0 {
+            self.view.frame.origin.y = 0
+        }
+    }
     
     
 }

@@ -18,8 +18,8 @@
 		AC5E8F4222801C0F00370669 /* extensionForVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E8F4122801C0F00370669 /* extensionForVC.swift */; };
 		AC5E8F4422801C6300370669 /* AppealViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5E8F4322801C6300370669 /* AppealViewController.storyboard */; };
 		AC5E8F4622801CFB00370669 /* AppealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5E8F4522801CFB00370669 /* AppealViewController.swift */; };
-		AC7389522293EA4D003B1281 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7389512293EA4D003B1281 /* MainNavigationController.swift */; };
-		AC7389542293F5AE003B1281 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7389532293F5AE003B1281 /* TabBarController.swift */; };
+		AC73895622940282003B1281 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC73895522940282003B1281 /* OptionsViewController.swift */; };
+		AC738958229444C8003B1281 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC738957229444C8003B1281 /* ChangePasswordVC.swift */; };
 		ACC14BAB228B299200587A88 /* ShowAppealVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC14BAA228B299200587A88 /* ShowAppealVC.swift */; };
 		ACC14BAD228B300F00587A88 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC14BAC228B300F00587A88 /* myCell.swift */; };
 		ACCA6124227F04CA008FD416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA6123227F04CA008FD416 /* AppDelegate.swift */; };
@@ -42,8 +42,8 @@
 		AC5E8F4122801C0F00370669 /* extensionForVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionForVC.swift; sourceTree = "<group>"; };
 		AC5E8F4322801C6300370669 /* AppealViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AppealViewController.storyboard; sourceTree = "<group>"; };
 		AC5E8F4522801CFB00370669 /* AppealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppealViewController.swift; sourceTree = "<group>"; };
-		AC7389512293EA4D003B1281 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
-		AC7389532293F5AE003B1281 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		AC73895522940282003B1281 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		AC738957229444C8003B1281 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
 		ACC14BAA228B299200587A88 /* ShowAppealVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAppealVC.swift; sourceTree = "<group>"; };
 		ACC14BAC228B300F00587A88 /* myCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
 		ACCA6120227F04CA008FD416 /* citizen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = citizen.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				ACCA6123227F04CA008FD416 /* AppDelegate.swift */,
-				AC7389532293F5AE003B1281 /* TabBarController.swift */,
 				ACCA6125227F04CA008FD416 /* ViewController.swift */,
 				ACCA6127227F04CA008FD416 /* Main.storyboard */,
 				AC0C52FF228EC35400BDA294 /* ChooseTypeVC.swift */,
@@ -119,7 +118,8 @@
 				AC5E8F4122801C0F00370669 /* extensionForVC.swift */,
 				AC5E8F4322801C6300370669 /* AppealViewController.storyboard */,
 				AC5E8F4522801CFB00370669 /* AppealViewController.swift */,
-				AC7389512293EA4D003B1281 /* MainNavigationController.swift */,
+				AC73895522940282003B1281 /* OptionsViewController.swift */,
+				AC738957229444C8003B1281 /* ChangePasswordVC.swift */,
 			);
 			path = citizen;
 			sourceTree = "<group>";
@@ -266,11 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5E8F4222801C0F00370669 /* extensionForVC.swift in Sources */,
+				AC73895622940282003B1281 /* OptionsViewController.swift in Sources */,
+				AC738958229444C8003B1281 /* ChangePasswordVC.swift in Sources */,
 				ACC14BAD228B300F00587A88 /* myCell.swift in Sources */,
 				AC5E8F4622801CFB00370669 /* AppealViewController.swift in Sources */,
-				AC7389542293F5AE003B1281 /* TabBarController.swift in Sources */,
 				AC0C5300228EC35400BDA294 /* ChooseTypeVC.swift in Sources */,
-				AC7389522293EA4D003B1281 /* MainNavigationController.swift in Sources */,
 				AC5E8F3C228012AF00370669 /* AdminViewController.swift in Sources */,
 				AC5E8F38227F3EC300370669 /* LogInViewcontroller.swift in Sources */,
 				AC5E8F3E2280148D00370669 /* Appeal.swift in Sources */,
